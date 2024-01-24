@@ -89,3 +89,28 @@ burada ise tablodaki bütün sutünları değil sadece `username` ve `password` 
 | 4  | user4     | secure321  |
 | 5  | user5     | access777  |
 
+---
+`SELECT * FROM users WHERE username LIKE 'a%';` username sutünunda 'a' harfi ile başlayan verileri verir.
+
+`SELECT * FROM users WHERE username LIKE '%n';` username sutünunda 'n' harfi ile biten verileri verir.
+
+`SELECT * FROM users WHERE username LIKE '%mi%';` username sutünunda içinde 'mi' geçen verileri verir.
+
+---
+
+## UNION
+
+tabloları birleştimek için kullanılır ....
+
+---
+
+## INSERT
+
+Yeni bir kayıt eklemek için kullanılır. Genel olarak, `INSERT INTO` ifadesiyle birlikte kullanılır.
+
+
+`INSERT INTO users (username, password, email) VALUES ('newuser', 'newpassword', 'newuser@example.com');`
+
+## UPDATE
+
+## DELETE
