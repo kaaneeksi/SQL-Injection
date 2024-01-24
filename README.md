@@ -69,4 +69,23 @@ burada ise tablodaki bütün sutünları değil sadece `username` ve `password` 
 
 ---
 
+`SELECT * FROM users WHERE username='user3';`
+
+//istenilen user3 verisini tablodan verdi
+
+| id | username  | password   |
+|----|-----------|------------|
+| 3  | user3     | mypass789  |
+
+
+`SELECT * FROM users WHERE username !='user2';`
+
+// user2 ye eşit olmayan değerleri verdi
+
+| id | username  | password   |
+|----|-----------|------------|
+| 1  | user1     | pass123    |
+| 3  | user3     | mypass789  |
+| 4  | user4     | secure321  |
+| 5  | user5     | access777  |
 
