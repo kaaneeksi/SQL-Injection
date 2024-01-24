@@ -71,7 +71,7 @@ burada ise tablodaki bütün sutünları değil sadece `username` ve `password` 
 
 `SELECT * FROM users WHERE username='user3';`
 
-//istenilen user3 verisini tablodan verdi
+// istenilen user3 verisini tablodan verdi
 
 | id | username  | password   |
 |----|-----------|------------|
